@@ -31,18 +31,20 @@ body{
   padding: 0 18px;
   background: transparent !important;
 }
+<header class="site-header">
+  <div class="header-left">
+    <img src="./images/profile.jpg" alt="Sajad Diyanat" class="profile-pic">
+  </div>
 
-header{
-  padding: 18px 0;
-  border-bottom: 1px solid #d7dde5;
-}
-
-nav a{
-  margin-right: 14px;
-  text-decoration: none;
-  color: var(--accent);
-  font-weight: 600;
-}
+  <div class="header-right">
+    <h1>Sajad Diyanat</h1>
+    <p class="small">Information Technology • Perth, Australia</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
 
 .small{ opacity: .75; font-size: .95rem; }
 h1 { font-size: 2.2rem; margin-bottom: .2em; }
