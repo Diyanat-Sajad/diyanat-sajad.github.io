@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sajad Diyanat | IT Professional</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sajad Diyanat | IT</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Hello, I'm Sajad 👋</h1>
-  <p>Welcome to my personal website.</p>
-  <p>I work in Information Technology.</p>
+  <div class="container">
+    <header>
+      <h1>Sajad Diyanat</h1>
+      <p class="small">Information Technology • Perth, Australia</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="card">
+        <h2>Welcome 👋</h2>
+        <p>This is my personal website hosted on GitHub Pages.</p>
+      </div>
+
+      <div class="card">
+        <h2>What I do</h2>
+        <ul>
+          <li>IT & Systems</li>
+          <li>Data / Analytics</li>
+          <li>Automation & AI (learning)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:Sajad.diy@icloud.com">YOUR_EMAIL_HERE</a><br/>
+          GitHub: <a href="https://github.com/diyanat-sajad">github.com/diyanat-sajad</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="small">
+      © <span id="year"></span> Sajad Diyanat
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
