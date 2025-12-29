@@ -26,11 +26,9 @@ body{
   line-height: 1.6;
 }
 .container{
-  background: var(--bg) !important;
-  min-height: 100vh;
   max-width: 900px;
-  margin: 0 auto;
-  padding: 28px 18px;
+  margin: 28px auto;
+  padding: 0 18px;
 }
 
 header{
