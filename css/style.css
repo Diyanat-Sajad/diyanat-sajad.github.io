@@ -1,5 +1,5 @@
 :root{
-  --bg: #f4f6f8;
+  --bg: #eef2f5;
   --card: #1f2937;
   --text: #111827;
   --card-text: #e5e7eb;
@@ -24,19 +24,14 @@ body{
 
 header{
   padding: 18px 0;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #d7dde5;
 }
 
 nav a{
   margin-right: 14px;
   text-decoration: none;
-}
-
-.card{
-  border: 1px solid #eaeaea;
-  border-radius: 12px;
-  padding: 16px;
-  margin: 14px 0;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 .small{ opacity: .75; font-size: .95rem; }
