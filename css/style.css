@@ -1,4 +1,12 @@
-:root { color-scheme: light; }
+:root{
+  --bg: #f4f6f8;
+  --card: #1f2937;
+  --text: #111827;
+  --card-text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #3b82f6;
+}
+
 
 body{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
