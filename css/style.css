@@ -1,5 +1,5 @@
 :root{
-  --bg: #e5e7eb;
+  --bg: #ffd1dc;
   --card: #1f2937;
   --text: #111827;
   --card-text: #e5e7eb;
@@ -16,7 +16,7 @@ nav a{
 }
 html, body{
   min-height: 100%;
-   background: var(--bg) !important;
+  background: var(--bg) !important;
 }
 
 body{
@@ -29,6 +29,7 @@ body{
   max-width: 900px;
   margin: 28px auto;
   padding: 0 18px;
+  background: transparent !important;
 }
 
 header{
